@@ -1,0 +1,22 @@
+#项目名
+projectname: '  '
+gettest_time: 2018-4-20
+test_person: east
+test_time: 2018-4-21
+
+#数据库
+db_host: 39.108.224.68
+db_username: mall
+db_password: Aa123654
+#端口
+port: 3306
+
+#邮件
+email_sender: 417034606@qq.com
+email_receiver: east_yxd@163.com
+my_password: gfnftanxevmgbgdj
+
+#项目账号
+user_account: admin
+user_password: admin
+
