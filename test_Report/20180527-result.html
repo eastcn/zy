@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>接口测试报告</title>
+		<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+		<style type="text/css">
+
+			td{ 
+				width:80px; 
+			}
+			
+			.ellps {
+				width:200px;
+/*				text-overflow: ellipsis; //超出部分用....代替  
+				overflow: hidden; //超出隐藏  
+				border: 1px solid red;*/
+				overflow: hidden;
+				text-overflow: ellipsis;
+				display: -webkit-box;
+				-webkit-line-clamp: 4;
+				-webkit-box-orient: vertical;
+			}
+			.modal-dialog {
+			    width: 800px;
+			}
+			.table{
+			width: 75%;
+			margin:0 auto;
+			}
+		</style>
+
+		<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+	
+<div style='width: 1170px;margin-left: 15%'>
+<h1>接口测试的结果</h1>
+		<p><strong>开始时间:</strong> 2018-05-27 00:39:52.733903</p>
+		<p><strong>结束时间:</strong> 2018-05-27 00:39:53.572078</p>
+		<p><strong>耗时:</strong> 0:00:00.838175</p>
+		<p><strong>结果:</strong>
+			<span >Pass: <strong >2</strong>
+			Fail: <strong >2</strong>
+			       Exception: <strong >0</strong> 
+			       Unknown_Error : <strong >0</strong></span></p>                  
+			    <p ><strong>测试详情如下</strong></p>  </div> 
+        <p>&nbsp;</p>
+        <table class="table table-bordered" >
+		<tr >
+            <td ><strong>用例ID&nbsp;</strong></td>
+            <td><strong>用例名字</strong></td>
+            <td><strong>key</strong></td>
+            <td><strong>请求内容</strong></td>
+            <td><strong>url</strong></td>
+            <td><strong>请求方式</strong></td>
+            <td><strong>预期</strong></td>
+            <td><strong>实际返回</strong></td>  
+            <td><strong>结果</strong></td>
+        </tr>
+     
+        <tr width='100'>
+            <td>1.0</td>
+            <td>豆瓣api</td>
+            <td class="warp">{}</td>
+            <td>{'q':'张艺谋','count':'1'}
+           </td>
+            <td>http://api.douban.com/v2/movie/search</td>
+            <td>GET</td>
+            <td>total=53</td>
+             <td>
+            	<div class='ellps'>{'count': 1, 'start': 0, 'total': 53, 'subjects': [{'rating': {'max': 10, 'average': 5.1, 'stars': '25', 'min': 0}, 'genres': ['动作', '奇幻', '冒险'], 'title': '长城', 'casts': [{'alt': 'https://movie.douban.com/celebrity/1054443/', 'avatars': {'small': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p620.jpg', 'large': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p620.jpg', 'medium': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p620.jpg'}, 'name': '马特·达蒙', 'id': '1054443'}, {'alt': 'https://movie.douban.com/celebrity/1275432/', 'avatars': {'small': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1407683852.1.jpg', 'large': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1407683852.1.jpg', 'medium': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1407683852.1.jpg'}, 'name': '景甜', 'id': '1275432'}, {'alt': 'https://movie.douban.com/celebrity/1329628/', 'avatars': {'small': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1397806328.94.jpg', 'large': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1397806328.94.jpg', 'medium': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1397806328.94.jpg'}, 'name': '佩德罗·帕斯卡', 'id': '1329628'}], 'collect_count': 258487, 'original_title': 'The Great Wall', 'subtype': 'movie', 'directors': [{'alt': 'https://movie.douban.com/celebrity/1054398/', 'avatars': {'small': 'http://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p568.jpg', 'large': 'http://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p568.jpg', 'medium': 'http://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p568.jpg'}, 'name': '张艺谋', 'id': '1054398'}], 'year': '2016', 'images': {'small': 'http://img7.doubanio.com/view/photo/s_ratio_poster/public/p2394573821.jpg', 'large': 'http://img7.doubanio.com/view/photo/s_ratio_poster/public/p2394573821.jpg', 'medium': 'http://img7.doubanio.com/view/photo/s_ratio_poster/public/p2394573821.jpg'}, 'alt': 'https://movie.douban.com/subject/6982558/', 'id': '6982558'}], 'title': '搜索 "张艺谋" 的结果'}</div>
+            	<a class="btn btn-link a_null">show</a>
+            	</td>
+            	 <td bgcolor="green">pass</td>
+        </tr>
+
+    
+        <tr width='100'>
+            <td>2.0</td>
+            <td>图灵api接口</td>
+            <td class="warp">{}</td>
+            <td>{'password':'1222'}
+           </td>
+            <td>http://www.tuling123.com/openapi/api
+</td>
+            <td>POST</td>
+            <td>code=40002</td>
+             <td>
+            	<div class='ellps'>{'code': 40007, 'text': '您的请求内容为空。'}</div>
+            	<a class="btn btn-link a_null">show</a>
+            	</td>
+            	 <td bgcolor="fail">fail</td>
+        </tr>
+
+    
+        <tr width='100'>
+            <td>3.0</td>
+            <td>图灵api接口</td>
+            <td class="warp">{}</td>
+            <td>{'password':'1222'}
+           </td>
+            <td>https://api.douban.com/v2/photo/:id</td>
+            <td>GET</td>
+            <td>code=40002</td>
+             <td>
+            	<div class='ellps'>{'msg': 'uri_not_found', 'code': 1001, 'request': 'GET /v2/photo/:id'}</div>
+            	<a class="btn btn-link a_null">show</a>
+            	</td>
+            	 <td bgcolor="fail">fail</td>
+        </tr>
+
+    
+        <tr width='100'>
+            <td>4.0</td>
+            <td>网易云音乐获取获取用户关注列表</td>
+            <td class="warp">{'MUSIC_U':'5b7ff2869c4c1d1605c2778f8fb6e6cae1366b2a76a0e27a682e1dfb2939f587ff5b00ac1da1e1b00a503af9397a6e73b364371d53e6ed77'}</td>
+            <td>{}
+           </td>
+            <td>http://igame.163.com/api/nuser/follow/users/simple/get</td>
+            <td>GET</td>
+            <td>code=200</td>
+             <td>
+            	<div class='ellps'>{'data': {'more': False, 'follow': [{'userId': 118713007, 'nickname': '123_40', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/g8wi_4LwDt4ZjNQfIjKo7A==/109951163269891099.jpg', 'authStatus': 1, 'userType': 4, 'gender': 2, 'mutual': False}, {'userId': 119233081, 'nickname': '帐号已注销', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/VnZiScyynLG7atLIZ2YPkw==/18686200114669622.jpg', 'authStatus': 0, 'userType': 0, 'gender': 0, 'mutual': False}, {'userId': 238522003, 'nickname': '入驻测试1', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/6_y_QdIboD930V3UH1l5kw==/109951163076177982.jpg', 'authStatus': 1, 'userType': 4, 'gender': 0, 'mutual': False}, {'userId': 238525103, 'nickname': '坎坎坷坷扩扩扩', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/6QaaZau_t8bJB2oNhRLZNA==/109951163082004079.jpg', 'authStatus': 1, 'userType': 4, 'gender': 0, 'mutual': True}, {'userId': 118982008, 'nickname': '一毛', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/QCfY3hsTDtcY4lL5rNnMtQ==/109951163279803052.jpg', 'authStatus': 0, 'userType': 0, 'gender': 0, 'mutual': False}, {'userId': 119271007, 'nickname': '听听风风', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/ynszcfbQgJn5wepm_3goOA==/18510278255691124.jpg', 'authStatus': 1, 'userType': 4, 'gender': 0, 'mutual': True}, {'userId': 117851014, 'nickname': '智梅子2号', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/lM0_o9zwLIVjMBr3PHOk8Q==/18696095720394288.jpg', 'authStatus': 1, 'userType': 1, 'gender': 1, 'mutual': False}, {'userId': 117847053, 'nickname': '统一改用户名', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/EzSSRYtIiRWfRvrPJvY4Bw==/109951163218720644.jpg', 'authStatus': 0, 'userType': 0, 'gender': 2, 'mutual': False}, {'userId': 118189001, 'nickname': '20160722005555', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/VnZiScyynLG7atLIZ2YPkw==/18686200114669622.jpg', 'authStatus': 0, 'userType': 0, 'gender': 0, 'mutual': False}, {'userId': 117923001, 'nickname': '用户117923001凤飞飞', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/iTrz0H1s-GpP-V23NqeGvg==/1374389535551248.jpg', 'authStatus': 1, 'userType': 4, 'gender': 2, 'mutual': False}]}, 'code': 200}</div>
+            	<a class="btn btn-link a_null">show</a>
+            	</td>
+            	 <td bgcolor="green">pass</td>
+        </tr>
+
+    
+	</table>
+	<!-- 模态框（Modal） -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">实际返回</h4>
+            </div>
+            <div class="modal-body">在这里添加一些文本</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal -->
+</div>
+    </body>
+    <script type="text/javascript">
+    
+    	function stringToNum(str, num) {
+    		var len = Math.floor(str.length/num)
+    		var res = ''
+    		for(var i=0; i<num; i++){
+    			res = res + str.substr(len*i,len) + '\r\n'
+    		}
+    		res = res + str.substring(len*num, str.length)
+    		return res
+    	}
+    	var cxt = $(".warp");
+    	for(var t=0;t<cxt.length;t++)
+    	cxt.get(t).innerText = stringToNum(cxt.get(t).innerText,6)
+    	//换行
+    	
+    	$('.a_null').click(function(){
+    		var text = $(this).prev().text()
+    		console.log(text)
+    		$('.modal-body').text(text)
+    		$('#myModal').modal('show')
+    	})
+    	//显示模态框
+    	
+    </script>
+    </html>

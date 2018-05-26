@@ -2334,3 +2334,322 @@
 [2018-05-26 22:15:17.102556] INFO: api: 当前模块参数信息,{}
 [2018-05-26 22:15:17.104560] INFO: api: 创建EXCEL报告
 [2018-05-26 22:15:17.113569] INFO: api: 创建HTML报告
+[2018-05-26 23:41:40.563609] INFO: api: 当前模块获取excel测试用例
+[2018-05-26 23:41:40.564609] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:41:40.565611] INFO: api: 当前模块参数信息,{}
+[2018-05-26 23:41:40.579122] INFO: api: 当前模块获取excel测试用例
+[2018-05-26 23:41:40.580123] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:41:40.580123] INFO: api: 当前模块参数信息,{}
+[2018-05-26 23:41:40.584126] INFO: api: 当前模块测试
+[2018-05-26 23:41:40.584126] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:41:40.585126] INFO: api: 当前模块参数信息,{}
+[2018-05-26 23:41:40.585126] INFO: api: 当前模块requests封装
+[2018-05-26 23:41:40.586127] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:41:40.586127] INFO: api: 当前模块参数信息,{'url': 'http://api.douban.com/v2/movie/search', 'method': 'GET', 'params': "{'q':'张艺谋','count':'1'}", 'cookie': '{}'}
+[2018-05-26 23:41:40.752936] INFO: api: 输入> 参数:{'q':'张艺谋','count':'1'}, url:http://api.douban.com/v2/movie/search ,返回:200,预期:total=53
+[2018-05-26 23:41:40.753937] INFO: api: 当前模块断言测试结果
+[2018-05-26 23:41:40.754437] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:41:40.754939] INFO: api: 当前模块参数信息,{'expects': 'total=53', 'result_json': {'count': 1, 'start': 0, 'total': 53, 'subjects': [{'rating': {'max': 10, 'average': 5.1, 'stars': '25', 'min': 0}, 'genres': ['动作', '奇幻', '冒险'], 'title': '长城', 'casts': [{'alt': 'https://movie.douban.com/celebrity/1054443/', 'avatars': {'small': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p620.jpg', 'large': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p620.jpg', 'medium': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p620.jpg'}, 'name': '马特·达蒙', 'id': '1054443'}, {'alt': 'https://movie.douban.com/celebrity/1275432/', 'avatars': {'small': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1407683852.1.jpg', 'large': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1407683852.1.jpg', 'medium': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1407683852.1.jpg'}, 'name': '景甜', 'id': '1275432'}, {'alt': 'https://movie.douban.com/celebrity/1329628/', 'avatars': {'small': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1397806328.94.jpg', 'large': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1397806328.94.jpg', 'medium': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1397806328.94.jpg'}, 'name': '佩德罗·帕斯卡', 'id': '1329628'}], 'collect_count': 258485, 'original_title': 'The Great Wall', 'subtype': 'movie', 'directors': [{'alt': 'https://movie.douban.com/celebrity/1054398/', 'avatars': {'small': 'http://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p568.jpg', 'large': 'http://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p568.jpg', 'medium': 'http://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p568.jpg'}, 'name': '张艺谋', 'id': '1054398'}], 'year': '2016', 'images': {'small': 'http://img7.doubanio.com/view/photo/s_ratio_poster/public/p2394573821.jpg', 'large': 'http://img7.doubanio.com/view/photo/s_ratio_poster/public/p2394573821.jpg', 'medium': 'http://img7.doubanio.com/view/photo/s_ratio_poster/public/p2394573821.jpg'}, 'alt': 'https://movie.douban.com/subject/6982558/', 'id': '6982558'}], 'title': '搜索 "张艺谋" 的结果'}}
+[2018-05-26 23:41:40.755440] INFO: api: 当前模块requests封装
+[2018-05-26 23:41:40.755939] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:41:40.756439] INFO: api: 当前模块参数信息,{'url': 'http://www.tuling123.com/openapi/api\n', 'method': 'POST', 'params': "{'password':'1222'}", 'cookie': '{}'}
+[2018-05-26 23:41:40.849521] INFO: api: 输入> 参数:{'password':'1222'}, url:http://www.tuling123.com/openapi/api
+ ,返回:200,预期:code=40002
+[2018-05-26 23:41:40.849521] INFO: api: 当前模块断言测试结果
+[2018-05-26 23:41:40.850527] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:41:40.850527] INFO: api: 当前模块参数信息,{'expects': 'code=40002', 'result_json': {'code': 40007, 'text': '您的请求内容为空。'}}
+[2018-05-26 23:41:40.852032] INFO: api: 当前模块requests封装
+[2018-05-26 23:41:40.852532] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:41:40.853033] INFO: api: 当前模块参数信息,{'url': 'https://api.douban.com/v2/photo/:id', 'method': 'GET', 'params': "{'password':'1222'}", 'cookie': '{}'}
+[2018-05-26 23:41:41.264369] INFO: api: 输入> 参数:{'password':'1222'}, url:https://api.douban.com/v2/photo/:id ,返回:404,预期:code=40002
+[2018-05-26 23:41:41.265371] INFO: api: 当前模块requests封装
+[2018-05-26 23:41:41.265871] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:41:41.266373] INFO: api: 当前模块参数信息,{'url': 'http://igame.163.com/api/nuser/follow/users/simple/get', 'method': 'GET', 'params': '{}', 'cookie': "{'MUSIC_U':'5b7ff2869c4c1d1605c2778f8fb6e6cae1366b2a76a0e27a682e1dfb2939f587ff5b00ac1da1e1b00a503af9397a6e73b364371d53e6ed77'}"}
+[2018-05-26 23:41:41.386859] INFO: api: 输入> 参数:{}, url:http://igame.163.com/api/nuser/follow/users/simple/get ,返回:200,预期:code=200
+[2018-05-26 23:41:41.387878] INFO: api: 当前模块断言测试结果
+[2018-05-26 23:41:41.388879] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:41:41.390880] INFO: api: 当前模块参数信息,{'expects': 'code=200', 'result_json': {'data': {'more': False, 'follow': [{'userId': 118713007, 'nickname': '123_40', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/g8wi_4LwDt4ZjNQfIjKo7A==/109951163269891099.jpg', 'authStatus': 1, 'userType': 4, 'gender': 2, 'mutual': False}, {'userId': 119233081, 'nickname': '帐号已注销', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/VnZiScyynLG7atLIZ2YPkw==/18686200114669622.jpg', 'authStatus': 0, 'userType': 0, 'gender': 0, 'mutual': False}, {'userId': 238522003, 'nickname': '入驻测试1', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/6_y_QdIboD930V3UH1l5kw==/109951163076177982.jpg', 'authStatus': 1, 'userType': 4, 'gender': 0, 'mutual': False}, {'userId': 238525103, 'nickname': '坎坎坷坷扩扩扩', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/6QaaZau_t8bJB2oNhRLZNA==/109951163082004079.jpg', 'authStatus': 1, 'userType': 4, 'gender': 0, 'mutual': True}, {'userId': 118982008, 'nickname': '一毛', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/QCfY3hsTDtcY4lL5rNnMtQ==/109951163279803052.jpg', 'authStatus': 0, 'userType': 0, 'gender': 0, 'mutual': False}, {'userId': 119271007, 'nickname': '听听风风', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/ynszcfbQgJn5wepm_3goOA==/18510278255691124.jpg', 'authStatus': 1, 'userType': 4, 'gender': 0, 'mutual': True}, {'userId': 117851014, 'nickname': '智梅子2号', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/lM0_o9zwLIVjMBr3PHOk8Q==/18696095720394288.jpg', 'authStatus': 1, 'userType': 1, 'gender': 1, 'mutual': False}, {'userId': 117847053, 'nickname': '统一改用户名', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/EzSSRYtIiRWfRvrPJvY4Bw==/109951163218720644.jpg', 'authStatus': 0, 'userType': 0, 'gender': 2, 'mutual': False}, {'userId': 118189001, 'nickname': '20160722005555', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/VnZiScyynLG7atLIZ2YPkw==/18686200114669622.jpg', 'authStatus': 0, 'userType': 0, 'gender': 0, 'mutual': False}, {'userId': 117923001, 'nickname': '用户117923001凤飞飞', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/iTrz0H1s-GpP-V23NqeGvg==/1374389535551248.jpg', 'authStatus': 1, 'userType': 4, 'gender': 2, 'mutual': False}]}, 'code': 200}}
+[2018-05-26 23:41:41.391860] INFO: api: 当前模块保存测试结果
+[2018-05-26 23:41:41.393861] INFO: api: 当前模块获取参数信息,(datetime.datetime(2018, 5, 26, 23, 41, 40, 579122), 4, 2, 2)
+[2018-05-26 23:41:41.394867] INFO: api: 当前模块参数信息,{}
+[2018-05-26 23:41:41.398868] INFO: api: 创建EXCEL报告
+[2018-05-26 23:41:50.761671] INFO: api: 当前模块获取excel测试用例
+[2018-05-26 23:41:50.762659] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:41:50.762659] INFO: api: 当前模块参数信息,{}
+[2018-05-26 23:41:50.774667] INFO: api: 当前模块获取excel测试用例
+[2018-05-26 23:41:50.775668] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:41:50.775668] INFO: api: 当前模块参数信息,{}
+[2018-05-26 23:41:50.778672] INFO: api: 当前模块测试
+[2018-05-26 23:41:50.778672] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:41:50.779671] INFO: api: 当前模块参数信息,{}
+[2018-05-26 23:41:50.779671] INFO: api: 当前模块requests封装
+[2018-05-26 23:41:50.780673] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:41:50.781674] INFO: api: 当前模块参数信息,{'url': 'http://api.douban.com/v2/movie/search', 'method': 'GET', 'params': "{'q':'张艺谋','count':'1'}", 'cookie': '{}'}
+[2018-05-26 23:41:50.930306] INFO: api: 输入> 参数:{'q':'张艺谋','count':'1'}, url:http://api.douban.com/v2/movie/search ,返回:200,预期:total=53
+[2018-05-26 23:41:50.930806] INFO: api: 当前模块断言测试结果
+[2018-05-26 23:41:50.931306] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:41:50.931807] INFO: api: 当前模块参数信息,{'expects': 'total=53', 'result_json': {'count': 1, 'start': 0, 'total': 53, 'subjects': [{'rating': {'max': 10, 'average': 5.1, 'stars': '25', 'min': 0}, 'genres': ['动作', '奇幻', '冒险'], 'title': '长城', 'casts': [{'alt': 'https://movie.douban.com/celebrity/1054443/', 'avatars': {'small': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p620.jpg', 'large': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p620.jpg', 'medium': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p620.jpg'}, 'name': '马特·达蒙', 'id': '1054443'}, {'alt': 'https://movie.douban.com/celebrity/1275432/', 'avatars': {'small': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1407683852.1.jpg', 'large': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1407683852.1.jpg', 'medium': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1407683852.1.jpg'}, 'name': '景甜', 'id': '1275432'}, {'alt': 'https://movie.douban.com/celebrity/1329628/', 'avatars': {'small': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1397806328.94.jpg', 'large': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1397806328.94.jpg', 'medium': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1397806328.94.jpg'}, 'name': '佩德罗·帕斯卡', 'id': '1329628'}], 'collect_count': 258485, 'original_title': 'The Great Wall', 'subtype': 'movie', 'directors': [{'alt': 'https://movie.douban.com/celebrity/1054398/', 'avatars': {'small': 'http://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p568.jpg', 'large': 'http://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p568.jpg', 'medium': 'http://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p568.jpg'}, 'name': '张艺谋', 'id': '1054398'}], 'year': '2016', 'images': {'small': 'http://img7.doubanio.com/view/photo/s_ratio_poster/public/p2394573821.jpg', 'large': 'http://img7.doubanio.com/view/photo/s_ratio_poster/public/p2394573821.jpg', 'medium': 'http://img7.doubanio.com/view/photo/s_ratio_poster/public/p2394573821.jpg'}, 'alt': 'https://movie.douban.com/subject/6982558/', 'id': '6982558'}], 'title': '搜索 "张艺谋" 的结果'}}
+[2018-05-26 23:41:50.932307] INFO: api: 当前模块requests封装
+[2018-05-26 23:41:50.932808] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:41:50.933808] INFO: api: 当前模块参数信息,{'url': 'http://www.tuling123.com/openapi/api\n', 'method': 'POST', 'params': "{'password':'1222'}", 'cookie': '{}'}
+[2018-05-26 23:41:51.011920] INFO: api: 输入> 参数:{'password':'1222'}, url:http://www.tuling123.com/openapi/api
+ ,返回:200,预期:code=40002
+[2018-05-26 23:41:51.012921] INFO: api: 当前模块断言测试结果
+[2018-05-26 23:41:51.012921] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:41:51.013920] INFO: api: 当前模块参数信息,{'expects': 'code=40002', 'result_json': {'code': 40007, 'text': '您的请求内容为空。'}}
+[2018-05-26 23:41:51.013920] INFO: api: 当前模块requests封装
+[2018-05-26 23:41:51.014920] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:41:51.014920] INFO: api: 当前模块参数信息,{'url': 'https://api.douban.com/v2/photo/:id', 'method': 'GET', 'params': "{'password':'1222'}", 'cookie': '{}'}
+[2018-05-26 23:41:51.423282] INFO: api: 输入> 参数:{'password':'1222'}, url:https://api.douban.com/v2/photo/:id ,返回:404,预期:code=40002
+[2018-05-26 23:41:51.424282] INFO: api: 当前模块requests封装
+[2018-05-26 23:41:51.425283] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:41:51.425787] INFO: api: 当前模块参数信息,{'url': 'http://igame.163.com/api/nuser/follow/users/simple/get', 'method': 'GET', 'params': '{}', 'cookie': "{'MUSIC_U':'5b7ff2869c4c1d1605c2778f8fb6e6cae1366b2a76a0e27a682e1dfb2939f587ff5b00ac1da1e1b00a503af9397a6e73b364371d53e6ed77'}"}
+[2018-05-26 23:41:51.452385] INFO: api: 输入> 参数:{}, url:http://igame.163.com/api/nuser/follow/users/simple/get ,返回:200,预期:code=200
+[2018-05-26 23:41:51.453385] INFO: api: 当前模块断言测试结果
+[2018-05-26 23:41:51.454388] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:41:51.455402] INFO: api: 当前模块参数信息,{'expects': 'code=200', 'result_json': {'data': {'more': False, 'follow': [{'userId': 118713007, 'nickname': '123_40', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/g8wi_4LwDt4ZjNQfIjKo7A==/109951163269891099.jpg', 'authStatus': 1, 'userType': 4, 'gender': 2, 'mutual': False}, {'userId': 119233081, 'nickname': '帐号已注销', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/VnZiScyynLG7atLIZ2YPkw==/18686200114669622.jpg', 'authStatus': 0, 'userType': 0, 'gender': 0, 'mutual': False}, {'userId': 238522003, 'nickname': '入驻测试1', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/6_y_QdIboD930V3UH1l5kw==/109951163076177982.jpg', 'authStatus': 1, 'userType': 4, 'gender': 0, 'mutual': False}, {'userId': 238525103, 'nickname': '坎坎坷坷扩扩扩', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/6QaaZau_t8bJB2oNhRLZNA==/109951163082004079.jpg', 'authStatus': 1, 'userType': 4, 'gender': 0, 'mutual': True}, {'userId': 118982008, 'nickname': '一毛', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/QCfY3hsTDtcY4lL5rNnMtQ==/109951163279803052.jpg', 'authStatus': 0, 'userType': 0, 'gender': 0, 'mutual': False}, {'userId': 119271007, 'nickname': '听听风风', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/ynszcfbQgJn5wepm_3goOA==/18510278255691124.jpg', 'authStatus': 1, 'userType': 4, 'gender': 0, 'mutual': True}, {'userId': 117851014, 'nickname': '智梅子2号', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/lM0_o9zwLIVjMBr3PHOk8Q==/18696095720394288.jpg', 'authStatus': 1, 'userType': 1, 'gender': 1, 'mutual': False}, {'userId': 117847053, 'nickname': '统一改用户名', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/EzSSRYtIiRWfRvrPJvY4Bw==/109951163218720644.jpg', 'authStatus': 0, 'userType': 0, 'gender': 2, 'mutual': False}, {'userId': 118189001, 'nickname': '20160722005555', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/VnZiScyynLG7atLIZ2YPkw==/18686200114669622.jpg', 'authStatus': 0, 'userType': 0, 'gender': 0, 'mutual': False}, {'userId': 117923001, 'nickname': '用户117923001凤飞飞', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/iTrz0H1s-GpP-V23NqeGvg==/1374389535551248.jpg', 'authStatus': 1, 'userType': 4, 'gender': 2, 'mutual': False}]}, 'code': 200}}
+[2018-05-26 23:41:51.455402] INFO: api: 当前模块保存测试结果
+[2018-05-26 23:41:51.456416] INFO: api: 当前模块获取参数信息,(datetime.datetime(2018, 5, 26, 23, 41, 50, 774667), 4, 2, 2)
+[2018-05-26 23:41:51.456416] INFO: api: 当前模块参数信息,{}
+[2018-05-26 23:41:51.457406] INFO: api: 创建EXCEL报告
+[2018-05-26 23:41:51.468403] INFO: api: 创建HTML报告
+[2018-05-26 23:43:38.952083] INFO: api: 当前模块获取excel测试用例
+[2018-05-26 23:43:38.952083] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:43:38.953084] INFO: api: 当前模块参数信息,{}
+[2018-05-26 23:43:38.968095] INFO: api: 当前模块获取excel测试用例
+[2018-05-26 23:43:38.968095] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:43:38.969096] INFO: api: 当前模块参数信息,{}
+[2018-05-26 23:43:38.971097] INFO: api: 当前模块测试
+[2018-05-26 23:43:38.972098] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:43:38.973096] INFO: api: 当前模块参数信息,{}
+[2018-05-26 23:43:38.973096] INFO: api: 当前模块requests封装
+[2018-05-26 23:43:38.974098] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:43:38.974098] INFO: api: 当前模块参数信息,{'url': 'http://api.douban.com/v2/movie/search', 'method': 'GET', 'params': "{'q':'张艺谋','count':'1'}", 'cookie': '{}'}
+[2018-05-26 23:43:39.159763] INFO: api: 输入> 参数:{'q':'张艺谋','count':'1'}, url:http://api.douban.com/v2/movie/search ,返回:200,预期:total=53
+[2018-05-26 23:43:39.162770] INFO: api: 当前模块断言测试结果
+[2018-05-26 23:43:39.163767] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:43:39.164768] INFO: api: 当前模块参数信息,{'expects': 'total=53', 'result_json': {'count': 1, 'start': 0, 'total': 53, 'subjects': [{'rating': {'max': 10, 'average': 5.1, 'stars': '25', 'min': 0}, 'genres': ['动作', '奇幻', '冒险'], 'title': '长城', 'casts': [{'alt': 'https://movie.douban.com/celebrity/1054443/', 'avatars': {'small': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p620.jpg', 'large': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p620.jpg', 'medium': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p620.jpg'}, 'name': '马特·达蒙', 'id': '1054443'}, {'alt': 'https://movie.douban.com/celebrity/1275432/', 'avatars': {'small': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1407683852.1.jpg', 'large': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1407683852.1.jpg', 'medium': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1407683852.1.jpg'}, 'name': '景甜', 'id': '1275432'}, {'alt': 'https://movie.douban.com/celebrity/1329628/', 'avatars': {'small': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1397806328.94.jpg', 'large': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1397806328.94.jpg', 'medium': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1397806328.94.jpg'}, 'name': '佩德罗·帕斯卡', 'id': '1329628'}], 'collect_count': 258485, 'original_title': 'The Great Wall', 'subtype': 'movie', 'directors': [{'alt': 'https://movie.douban.com/celebrity/1054398/', 'avatars': {'small': 'http://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p568.jpg', 'large': 'http://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p568.jpg', 'medium': 'http://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p568.jpg'}, 'name': '张艺谋', 'id': '1054398'}], 'year': '2016', 'images': {'small': 'http://img7.doubanio.com/view/photo/s_ratio_poster/public/p2394573821.jpg', 'large': 'http://img7.doubanio.com/view/photo/s_ratio_poster/public/p2394573821.jpg', 'medium': 'http://img7.doubanio.com/view/photo/s_ratio_poster/public/p2394573821.jpg'}, 'alt': 'https://movie.douban.com/subject/6982558/', 'id': '6982558'}], 'title': '搜索 "张艺谋" 的结果'}}
+[2018-05-26 23:43:39.166770] INFO: api: 当前模块requests封装
+[2018-05-26 23:43:39.167771] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:43:39.168771] INFO: api: 当前模块参数信息,{'url': 'http://www.tuling123.com/openapi/api\n', 'method': 'POST', 'params': "{'password':'1222'}", 'cookie': '{}'}
+[2018-05-26 23:43:39.251339] INFO: api: 输入> 参数:{'password':'1222'}, url:http://www.tuling123.com/openapi/api
+ ,返回:200,预期:code=40002
+[2018-05-26 23:43:39.253341] INFO: api: 当前模块断言测试结果
+[2018-05-26 23:43:39.254361] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:43:39.255361] INFO: api: 当前模块参数信息,{'expects': 'code=40002', 'result_json': {'code': 40007, 'text': '您的请求内容为空。'}}
+[2018-05-26 23:43:39.256362] INFO: api: 当前模块requests封装
+[2018-05-26 23:43:39.257363] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:43:39.259344] INFO: api: 当前模块参数信息,{'url': 'https://api.douban.com/v2/photo/:id', 'method': 'GET', 'params': "{'password':'1222'}", 'cookie': '{}'}
+[2018-05-26 23:43:39.687276] INFO: api: 输入> 参数:{'password':'1222'}, url:https://api.douban.com/v2/photo/:id ,返回:404,预期:code=40002
+[2018-05-26 23:43:39.689288] INFO: api: 当前模块requests封装
+[2018-05-26 23:43:39.691297] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:43:39.692298] INFO: api: 当前模块参数信息,{'url': 'http://igame.163.com/api/nuser/follow/users/simple/get', 'method': 'GET', 'params': '{}', 'cookie': "{'MUSIC_U':'5b7ff2869c4c1d1605c2778f8fb6e6cae1366b2a76a0e27a682e1dfb2939f587ff5b00ac1da1e1b00a503af9397a6e73b364371d53e6ed77'}"}
+[2018-05-26 23:43:39.732373] INFO: api: 输入> 参数:{}, url:http://igame.163.com/api/nuser/follow/users/simple/get ,返回:200,预期:code=200
+[2018-05-26 23:43:39.733444] INFO: api: 当前模块断言测试结果
+[2018-05-26 23:43:39.734447] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:43:39.736447] INFO: api: 当前模块参数信息,{'expects': 'code=200', 'result_json': {'data': {'more': False, 'follow': [{'userId': 118713007, 'nickname': '123_40', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/g8wi_4LwDt4ZjNQfIjKo7A==/109951163269891099.jpg', 'authStatus': 1, 'userType': 4, 'gender': 2, 'mutual': False}, {'userId': 119233081, 'nickname': '帐号已注销', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/VnZiScyynLG7atLIZ2YPkw==/18686200114669622.jpg', 'authStatus': 0, 'userType': 0, 'gender': 0, 'mutual': False}, {'userId': 238522003, 'nickname': '入驻测试1', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/6_y_QdIboD930V3UH1l5kw==/109951163076177982.jpg', 'authStatus': 1, 'userType': 4, 'gender': 0, 'mutual': False}, {'userId': 238525103, 'nickname': '坎坎坷坷扩扩扩', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/6QaaZau_t8bJB2oNhRLZNA==/109951163082004079.jpg', 'authStatus': 1, 'userType': 4, 'gender': 0, 'mutual': True}, {'userId': 118982008, 'nickname': '一毛', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/QCfY3hsTDtcY4lL5rNnMtQ==/109951163279803052.jpg', 'authStatus': 0, 'userType': 0, 'gender': 0, 'mutual': False}, {'userId': 119271007, 'nickname': '听听风风', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/ynszcfbQgJn5wepm_3goOA==/18510278255691124.jpg', 'authStatus': 1, 'userType': 4, 'gender': 0, 'mutual': True}, {'userId': 117851014, 'nickname': '智梅子2号', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/lM0_o9zwLIVjMBr3PHOk8Q==/18696095720394288.jpg', 'authStatus': 1, 'userType': 1, 'gender': 1, 'mutual': False}, {'userId': 117847053, 'nickname': '统一改用户名', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/EzSSRYtIiRWfRvrPJvY4Bw==/109951163218720644.jpg', 'authStatus': 0, 'userType': 0, 'gender': 2, 'mutual': False}, {'userId': 118189001, 'nickname': '20160722005555', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/VnZiScyynLG7atLIZ2YPkw==/18686200114669622.jpg', 'authStatus': 0, 'userType': 0, 'gender': 0, 'mutual': False}, {'userId': 117923001, 'nickname': '用户117923001凤飞飞', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/iTrz0H1s-GpP-V23NqeGvg==/1374389535551248.jpg', 'authStatus': 1, 'userType': 4, 'gender': 2, 'mutual': False}]}, 'code': 200}}
+[2018-05-26 23:43:39.737447] INFO: api: 当前模块保存测试结果
+[2018-05-26 23:43:39.739450] INFO: api: 当前模块获取参数信息,(datetime.datetime(2018, 5, 26, 23, 43, 38, 967094), 4, 2, 2)
+[2018-05-26 23:43:39.740449] INFO: api: 当前模块参数信息,{}
+[2018-05-26 23:43:39.742449] INFO: api: 创建EXCEL报告
+[2018-05-26 23:43:39.758461] INFO: api: 创建HTML报告
+[2018-05-26 23:44:32.104223] INFO: api: 当前模块获取excel测试用例
+[2018-05-26 23:44:32.105224] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:44:32.105224] INFO: api: 当前模块参数信息,{}
+[2018-05-26 23:44:32.119232] INFO: api: 当前模块获取excel测试用例
+[2018-05-26 23:44:32.120235] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:44:32.121222] INFO: api: 当前模块参数信息,{}
+[2018-05-26 23:44:32.123224] INFO: api: 当前模块测试
+[2018-05-26 23:44:32.124224] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:44:32.124224] INFO: api: 当前模块参数信息,{}
+[2018-05-26 23:44:32.125225] INFO: api: 当前模块requests封装
+[2018-05-26 23:44:32.125225] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:44:32.126226] INFO: api: 当前模块参数信息,{'url': 'http://api.douban.com/v2/movie/search', 'method': 'GET', 'params': "{'q':'张艺谋','count':'1'}", 'cookie': '{}'}
+[2018-05-26 23:44:32.298962] INFO: api: 输入> 参数:{'q':'张艺谋','count':'1'}, url:http://api.douban.com/v2/movie/search ,返回:200,预期:total=53
+[2018-05-26 23:44:32.301928] INFO: api: 当前模块断言测试结果
+[2018-05-26 23:44:32.304926] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:44:32.307932] INFO: api: 当前模块参数信息,{'expects': 'total=53', 'result_json': {'count': 1, 'start': 0, 'total': 53, 'subjects': [{'rating': {'max': 10, 'average': 5.1, 'stars': '25', 'min': 0}, 'genres': ['动作', '奇幻', '冒险'], 'title': '长城', 'casts': [{'alt': 'https://movie.douban.com/celebrity/1054443/', 'avatars': {'small': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p620.jpg', 'large': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p620.jpg', 'medium': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p620.jpg'}, 'name': '马特·达蒙', 'id': '1054443'}, {'alt': 'https://movie.douban.com/celebrity/1275432/', 'avatars': {'small': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1407683852.1.jpg', 'large': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1407683852.1.jpg', 'medium': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1407683852.1.jpg'}, 'name': '景甜', 'id': '1275432'}, {'alt': 'https://movie.douban.com/celebrity/1329628/', 'avatars': {'small': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1397806328.94.jpg', 'large': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1397806328.94.jpg', 'medium': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1397806328.94.jpg'}, 'name': '佩德罗·帕斯卡', 'id': '1329628'}], 'collect_count': 258485, 'original_title': 'The Great Wall', 'subtype': 'movie', 'directors': [{'alt': 'https://movie.douban.com/celebrity/1054398/', 'avatars': {'small': 'http://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p568.jpg', 'large': 'http://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p568.jpg', 'medium': 'http://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p568.jpg'}, 'name': '张艺谋', 'id': '1054398'}], 'year': '2016', 'images': {'small': 'http://img7.doubanio.com/view/photo/s_ratio_poster/public/p2394573821.jpg', 'large': 'http://img7.doubanio.com/view/photo/s_ratio_poster/public/p2394573821.jpg', 'medium': 'http://img7.doubanio.com/view/photo/s_ratio_poster/public/p2394573821.jpg'}, 'alt': 'https://movie.douban.com/subject/6982558/', 'id': '6982558'}], 'title': '搜索 "张艺谋" 的结果'}}
+[2018-05-26 23:44:32.309931] INFO: api: 当前模块requests封装
+[2018-05-26 23:44:32.311934] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:44:32.313939] INFO: api: 当前模块参数信息,{'url': 'http://www.tuling123.com/openapi/api\n', 'method': 'POST', 'params': "{'password':'1222'}", 'cookie': '{}'}
+[2018-05-26 23:44:32.400353] INFO: api: 输入> 参数:{'password':'1222'}, url:http://www.tuling123.com/openapi/api
+ ,返回:200,预期:code=40002
+[2018-05-26 23:44:32.402351] INFO: api: 当前模块断言测试结果
+[2018-05-26 23:44:32.404353] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:44:32.406355] INFO: api: 当前模块参数信息,{'expects': 'code=40002', 'result_json': {'code': 40007, 'text': '您的请求内容为空。'}}
+[2018-05-26 23:44:32.407356] INFO: api: 当前模块requests封装
+[2018-05-26 23:44:32.409361] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:44:32.410361] INFO: api: 当前模块参数信息,{'url': 'https://api.douban.com/v2/photo/:id', 'method': 'GET', 'params': "{'password':'1222'}", 'cookie': '{}'}
+[2018-05-26 23:44:32.828405] INFO: api: 输入> 参数:{'password':'1222'}, url:https://api.douban.com/v2/photo/:id ,返回:404,预期:code=40002
+[2018-05-26 23:44:32.830411] INFO: api: 当前模块requests封装
+[2018-05-26 23:44:32.831412] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:44:32.832413] INFO: api: 当前模块参数信息,{'url': 'http://igame.163.com/api/nuser/follow/users/simple/get', 'method': 'GET', 'params': '{}', 'cookie': "{'MUSIC_U':'5b7ff2869c4c1d1605c2778f8fb6e6cae1366b2a76a0e27a682e1dfb2939f587ff5b00ac1da1e1b00a503af9397a6e73b364371d53e6ed77'}"}
+[2018-05-26 23:44:32.864495] INFO: api: 输入> 参数:{}, url:http://igame.163.com/api/nuser/follow/users/simple/get ,返回:200,预期:code=200
+[2018-05-26 23:44:32.865495] INFO: api: 当前模块断言测试结果
+[2018-05-26 23:44:32.866505] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:44:32.867508] INFO: api: 当前模块参数信息,{'expects': 'code=200', 'result_json': {'data': {'more': False, 'follow': [{'userId': 118713007, 'nickname': '123_40', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/g8wi_4LwDt4ZjNQfIjKo7A==/109951163269891099.jpg', 'authStatus': 1, 'userType': 4, 'gender': 2, 'mutual': False}, {'userId': 119233081, 'nickname': '帐号已注销', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/VnZiScyynLG7atLIZ2YPkw==/18686200114669622.jpg', 'authStatus': 0, 'userType': 0, 'gender': 0, 'mutual': False}, {'userId': 238522003, 'nickname': '入驻测试1', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/6_y_QdIboD930V3UH1l5kw==/109951163076177982.jpg', 'authStatus': 1, 'userType': 4, 'gender': 0, 'mutual': False}, {'userId': 238525103, 'nickname': '坎坎坷坷扩扩扩', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/6QaaZau_t8bJB2oNhRLZNA==/109951163082004079.jpg', 'authStatus': 1, 'userType': 4, 'gender': 0, 'mutual': True}, {'userId': 118982008, 'nickname': '一毛', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/QCfY3hsTDtcY4lL5rNnMtQ==/109951163279803052.jpg', 'authStatus': 0, 'userType': 0, 'gender': 0, 'mutual': False}, {'userId': 119271007, 'nickname': '听听风风', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/ynszcfbQgJn5wepm_3goOA==/18510278255691124.jpg', 'authStatus': 1, 'userType': 4, 'gender': 0, 'mutual': True}, {'userId': 117851014, 'nickname': '智梅子2号', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/lM0_o9zwLIVjMBr3PHOk8Q==/18696095720394288.jpg', 'authStatus': 1, 'userType': 1, 'gender': 1, 'mutual': False}, {'userId': 117847053, 'nickname': '统一改用户名', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/EzSSRYtIiRWfRvrPJvY4Bw==/109951163218720644.jpg', 'authStatus': 0, 'userType': 0, 'gender': 2, 'mutual': False}, {'userId': 118189001, 'nickname': '20160722005555', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/VnZiScyynLG7atLIZ2YPkw==/18686200114669622.jpg', 'authStatus': 0, 'userType': 0, 'gender': 0, 'mutual': False}, {'userId': 117923001, 'nickname': '用户117923001凤飞飞', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/iTrz0H1s-GpP-V23NqeGvg==/1374389535551248.jpg', 'authStatus': 1, 'userType': 4, 'gender': 2, 'mutual': False}]}, 'code': 200}}
+[2018-05-26 23:44:32.869507] INFO: api: 当前模块保存测试结果
+[2018-05-26 23:44:32.870499] INFO: api: 当前模块获取参数信息,(datetime.datetime(2018, 5, 26, 23, 44, 32, 119232), 4, 2, 2)
+[2018-05-26 23:44:32.872510] INFO: api: 当前模块参数信息,{}
+[2018-05-26 23:44:32.874500] INFO: api: 创建EXCEL报告
+[2018-05-26 23:44:32.891513] INFO: api: 创建HTML报告
+[2018-05-26 23:45:06.824301] INFO: api: 当前模块获取excel测试用例
+[2018-05-26 23:45:06.825303] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:45:06.826303] INFO: api: 当前模块参数信息,{}
+[2018-05-26 23:45:06.840311] INFO: api: 当前模块获取excel测试用例
+[2018-05-26 23:45:06.840311] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:45:06.841312] INFO: api: 当前模块参数信息,{}
+[2018-05-26 23:45:06.844314] INFO: api: 当前模块测试
+[2018-05-26 23:45:06.844314] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:45:06.845315] INFO: api: 当前模块参数信息,{}
+[2018-05-26 23:45:06.845315] INFO: api: 当前模块requests封装
+[2018-05-26 23:45:06.846315] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:45:06.846315] INFO: api: 当前模块参数信息,{'url': 'http://api.douban.com/v2/movie/search', 'method': 'GET', 'params': "{'q':'张艺谋','count':'1'}", 'cookie': '{}'}
+[2018-05-26 23:45:07.032850] INFO: api: 输入> 参数:{'q':'张艺谋','count':'1'}, url:http://api.douban.com/v2/movie/search ,返回:200,预期:total=53
+[2018-05-26 23:45:07.034852] INFO: api: 当前模块断言测试结果
+[2018-05-26 23:45:07.037854] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:45:07.039855] INFO: api: 当前模块参数信息,{'expects': 'total=53', 'result_json': {'count': 1, 'start': 0, 'total': 53, 'subjects': [{'rating': {'max': 10, 'average': 5.1, 'stars': '25', 'min': 0}, 'genres': ['动作', '奇幻', '冒险'], 'title': '长城', 'casts': [{'alt': 'https://movie.douban.com/celebrity/1054443/', 'avatars': {'small': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p620.jpg', 'large': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p620.jpg', 'medium': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p620.jpg'}, 'name': '马特·达蒙', 'id': '1054443'}, {'alt': 'https://movie.douban.com/celebrity/1275432/', 'avatars': {'small': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1407683852.1.jpg', 'large': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1407683852.1.jpg', 'medium': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1407683852.1.jpg'}, 'name': '景甜', 'id': '1275432'}, {'alt': 'https://movie.douban.com/celebrity/1329628/', 'avatars': {'small': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1397806328.94.jpg', 'large': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1397806328.94.jpg', 'medium': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1397806328.94.jpg'}, 'name': '佩德罗·帕斯卡', 'id': '1329628'}], 'collect_count': 258485, 'original_title': 'The Great Wall', 'subtype': 'movie', 'directors': [{'alt': 'https://movie.douban.com/celebrity/1054398/', 'avatars': {'small': 'http://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p568.jpg', 'large': 'http://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p568.jpg', 'medium': 'http://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p568.jpg'}, 'name': '张艺谋', 'id': '1054398'}], 'year': '2016', 'images': {'small': 'http://img7.doubanio.com/view/photo/s_ratio_poster/public/p2394573821.jpg', 'large': 'http://img7.doubanio.com/view/photo/s_ratio_poster/public/p2394573821.jpg', 'medium': 'http://img7.doubanio.com/view/photo/s_ratio_poster/public/p2394573821.jpg'}, 'alt': 'https://movie.douban.com/subject/6982558/', 'id': '6982558'}], 'title': '搜索 "张艺谋" 的结果'}}
+[2018-05-26 23:45:07.041857] INFO: api: 当前模块requests封装
+[2018-05-26 23:45:07.044857] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:45:07.047861] INFO: api: 当前模块参数信息,{'url': 'http://www.tuling123.com/openapi/api\n', 'method': 'POST', 'params': "{'password':'1222'}", 'cookie': '{}'}
+[2018-05-26 23:45:07.132465] INFO: api: 输入> 参数:{'password':'1222'}, url:http://www.tuling123.com/openapi/api
+ ,返回:200,预期:code=40002
+[2018-05-26 23:45:07.134467] INFO: api: 当前模块断言测试结果
+[2018-05-26 23:45:07.135467] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:45:07.136468] INFO: api: 当前模块参数信息,{'expects': 'code=40002', 'result_json': {'code': 40007, 'text': '您的请求内容为空。'}}
+[2018-05-26 23:45:07.138469] INFO: api: 当前模块requests封装
+[2018-05-26 23:45:07.139470] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:45:07.140471] INFO: api: 当前模块参数信息,{'url': 'https://api.douban.com/v2/photo/:id', 'method': 'GET', 'params': "{'password':'1222'}", 'cookie': '{}'}
+[2018-05-26 23:45:08.061155] INFO: api: 输入> 参数:{'password':'1222'}, url:https://api.douban.com/v2/photo/:id ,返回:404,预期:code=40002
+[2018-05-26 23:45:08.062144] INFO: api: 当前模块requests封装
+[2018-05-26 23:45:08.063152] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:45:08.064153] INFO: api: 当前模块参数信息,{'url': 'http://igame.163.com/api/nuser/follow/users/simple/get', 'method': 'GET', 'params': '{}', 'cookie': "{'MUSIC_U':'5b7ff2869c4c1d1605c2778f8fb6e6cae1366b2a76a0e27a682e1dfb2939f587ff5b00ac1da1e1b00a503af9397a6e73b364371d53e6ed77'}"}
+[2018-05-26 23:45:08.093722] INFO: api: 输入> 参数:{}, url:http://igame.163.com/api/nuser/follow/users/simple/get ,返回:200,预期:code=200
+[2018-05-26 23:45:08.095706] INFO: api: 当前模块断言测试结果
+[2018-05-26 23:45:08.097699] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:45:08.099715] INFO: api: 当前模块参数信息,{'expects': 'code=200', 'result_json': {'data': {'more': False, 'follow': [{'userId': 118713007, 'nickname': '123_40', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/g8wi_4LwDt4ZjNQfIjKo7A==/109951163269891099.jpg', 'authStatus': 1, 'userType': 4, 'gender': 2, 'mutual': False}, {'userId': 119233081, 'nickname': '帐号已注销', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/VnZiScyynLG7atLIZ2YPkw==/18686200114669622.jpg', 'authStatus': 0, 'userType': 0, 'gender': 0, 'mutual': False}, {'userId': 238522003, 'nickname': '入驻测试1', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/6_y_QdIboD930V3UH1l5kw==/109951163076177982.jpg', 'authStatus': 1, 'userType': 4, 'gender': 0, 'mutual': False}, {'userId': 238525103, 'nickname': '坎坎坷坷扩扩扩', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/6QaaZau_t8bJB2oNhRLZNA==/109951163082004079.jpg', 'authStatus': 1, 'userType': 4, 'gender': 0, 'mutual': True}, {'userId': 118982008, 'nickname': '一毛', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/QCfY3hsTDtcY4lL5rNnMtQ==/109951163279803052.jpg', 'authStatus': 0, 'userType': 0, 'gender': 0, 'mutual': False}, {'userId': 119271007, 'nickname': '听听风风', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/ynszcfbQgJn5wepm_3goOA==/18510278255691124.jpg', 'authStatus': 1, 'userType': 4, 'gender': 0, 'mutual': True}, {'userId': 117851014, 'nickname': '智梅子2号', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/lM0_o9zwLIVjMBr3PHOk8Q==/18696095720394288.jpg', 'authStatus': 1, 'userType': 1, 'gender': 1, 'mutual': False}, {'userId': 117847053, 'nickname': '统一改用户名', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/EzSSRYtIiRWfRvrPJvY4Bw==/109951163218720644.jpg', 'authStatus': 0, 'userType': 0, 'gender': 2, 'mutual': False}, {'userId': 118189001, 'nickname': '20160722005555', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/VnZiScyynLG7atLIZ2YPkw==/18686200114669622.jpg', 'authStatus': 0, 'userType': 0, 'gender': 0, 'mutual': False}, {'userId': 117923001, 'nickname': '用户117923001凤飞飞', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/iTrz0H1s-GpP-V23NqeGvg==/1374389535551248.jpg', 'authStatus': 1, 'userType': 4, 'gender': 2, 'mutual': False}]}, 'code': 200}}
+[2018-05-26 23:45:08.101706] INFO: api: 当前模块保存测试结果
+[2018-05-26 23:45:08.103708] INFO: api: 当前模块获取参数信息,(datetime.datetime(2018, 5, 26, 23, 45, 6, 840311), 4, 2, 2)
+[2018-05-26 23:45:08.105709] INFO: api: 当前模块参数信息,{}
+[2018-05-26 23:45:08.110713] INFO: api: 创建EXCEL报告
+[2018-05-26 23:45:08.123718] INFO: api: 创建HTML报告
+[2018-05-26 23:46:12.856199] INFO: api: 当前模块获取excel测试用例
+[2018-05-26 23:46:12.858203] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:46:12.858203] INFO: api: 当前模块参数信息,{}
+[2018-05-26 23:46:12.869725] INFO: api: 当前模块获取excel测试用例
+[2018-05-26 23:46:12.870225] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:46:12.870725] INFO: api: 当前模块参数信息,{}
+[2018-05-26 23:46:12.873215] INFO: api: 当前模块测试
+[2018-05-26 23:46:12.874215] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:46:12.874716] INFO: api: 当前模块参数信息,{}
+[2018-05-26 23:46:12.875216] INFO: api: 当前模块requests封装
+[2018-05-26 23:46:12.875716] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:46:12.876218] INFO: api: 当前模块参数信息,{'url': 'http://api.douban.com/v2/movie/search', 'method': 'GET', 'params': "{'q':'张艺谋','count':'1'}", 'cookie': '{}'}
+[2018-05-26 23:46:13.064870] INFO: api: 输入> 参数:{'q':'张艺谋','count':'1'}, url:http://api.douban.com/v2/movie/search ,返回:200,预期:total=53
+[2018-05-26 23:46:13.065370] INFO: api: 当前模块断言测试结果
+[2018-05-26 23:46:13.065870] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:46:13.066871] INFO: api: 当前模块参数信息,{'expects': 'total=53', 'result_json': {'count': 1, 'start': 0, 'total': 53, 'subjects': [{'rating': {'max': 10, 'average': 5.1, 'stars': '25', 'min': 0}, 'genres': ['动作', '奇幻', '冒险'], 'title': '长城', 'casts': [{'alt': 'https://movie.douban.com/celebrity/1054443/', 'avatars': {'small': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p620.jpg', 'large': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p620.jpg', 'medium': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p620.jpg'}, 'name': '马特·达蒙', 'id': '1054443'}, {'alt': 'https://movie.douban.com/celebrity/1275432/', 'avatars': {'small': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1407683852.1.jpg', 'large': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1407683852.1.jpg', 'medium': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1407683852.1.jpg'}, 'name': '景甜', 'id': '1275432'}, {'alt': 'https://movie.douban.com/celebrity/1329628/', 'avatars': {'small': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1397806328.94.jpg', 'large': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1397806328.94.jpg', 'medium': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1397806328.94.jpg'}, 'name': '佩德罗·帕斯卡', 'id': '1329628'}], 'collect_count': 258486, 'original_title': 'The Great Wall', 'subtype': 'movie', 'directors': [{'alt': 'https://movie.douban.com/celebrity/1054398/', 'avatars': {'small': 'http://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p568.jpg', 'large': 'http://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p568.jpg', 'medium': 'http://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p568.jpg'}, 'name': '张艺谋', 'id': '1054398'}], 'year': '2016', 'images': {'small': 'http://img7.doubanio.com/view/photo/s_ratio_poster/public/p2394573821.jpg', 'large': 'http://img7.doubanio.com/view/photo/s_ratio_poster/public/p2394573821.jpg', 'medium': 'http://img7.doubanio.com/view/photo/s_ratio_poster/public/p2394573821.jpg'}, 'alt': 'https://movie.douban.com/subject/6982558/', 'id': '6982558'}], 'title': '搜索 "张艺谋" 的结果'}}
+[2018-05-26 23:46:13.067371] INFO: api: 当前模块requests封装
+[2018-05-26 23:46:13.067871] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:46:13.068372] INFO: api: 当前模块参数信息,{'url': 'http://www.tuling123.com/openapi/api\n', 'method': 'POST', 'params': "{'password':'1222'}", 'cookie': '{}'}
+[2018-05-26 23:46:13.142460] INFO: api: 输入> 参数:{'password':'1222'}, url:http://www.tuling123.com/openapi/api
+ ,返回:200,预期:code=40002
+[2018-05-26 23:46:13.143460] INFO: api: 当前模块断言测试结果
+[2018-05-26 23:46:13.144461] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:46:13.144461] INFO: api: 当前模块参数信息,{'expects': 'code=40002', 'result_json': {'code': 40007, 'text': '您的请求内容为空。'}}
+[2018-05-26 23:46:13.145461] INFO: api: 当前模块requests封装
+[2018-05-26 23:46:13.145461] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:46:13.146462] INFO: api: 当前模块参数信息,{'url': 'https://api.douban.com/v2/photo/:id', 'method': 'GET', 'params': "{'password':'1222'}", 'cookie': '{}'}
+[2018-05-26 23:46:14.382497] INFO: api: 输入> 参数:{'password':'1222'}, url:https://api.douban.com/v2/photo/:id ,返回:404,预期:code=40002
+[2018-05-26 23:46:14.383496] INFO: api: 当前模块requests封装
+[2018-05-26 23:46:14.385498] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:46:14.386498] INFO: api: 当前模块参数信息,{'url': 'http://igame.163.com/api/nuser/follow/users/simple/get', 'method': 'GET', 'params': '{}', 'cookie': "{'MUSIC_U':'5b7ff2869c4c1d1605c2778f8fb6e6cae1366b2a76a0e27a682e1dfb2939f587ff5b00ac1da1e1b00a503af9397a6e73b364371d53e6ed77'}"}
+[2018-05-26 23:46:14.422524] INFO: api: 输入> 参数:{}, url:http://igame.163.com/api/nuser/follow/users/simple/get ,返回:200,预期:code=200
+[2018-05-26 23:46:14.423525] INFO: api: 当前模块断言测试结果
+[2018-05-26 23:46:14.424525] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:46:14.425526] INFO: api: 当前模块参数信息,{'expects': 'code=200', 'result_json': {'data': {'more': False, 'follow': [{'userId': 118713007, 'nickname': '123_40', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/g8wi_4LwDt4ZjNQfIjKo7A==/109951163269891099.jpg', 'authStatus': 1, 'userType': 4, 'gender': 2, 'mutual': False}, {'userId': 119233081, 'nickname': '帐号已注销', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/VnZiScyynLG7atLIZ2YPkw==/18686200114669622.jpg', 'authStatus': 0, 'userType': 0, 'gender': 0, 'mutual': False}, {'userId': 238522003, 'nickname': '入驻测试1', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/6_y_QdIboD930V3UH1l5kw==/109951163076177982.jpg', 'authStatus': 1, 'userType': 4, 'gender': 0, 'mutual': False}, {'userId': 238525103, 'nickname': '坎坎坷坷扩扩扩', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/6QaaZau_t8bJB2oNhRLZNA==/109951163082004079.jpg', 'authStatus': 1, 'userType': 4, 'gender': 0, 'mutual': True}, {'userId': 118982008, 'nickname': '一毛', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/QCfY3hsTDtcY4lL5rNnMtQ==/109951163279803052.jpg', 'authStatus': 0, 'userType': 0, 'gender': 0, 'mutual': False}, {'userId': 119271007, 'nickname': '听听风风', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/ynszcfbQgJn5wepm_3goOA==/18510278255691124.jpg', 'authStatus': 1, 'userType': 4, 'gender': 0, 'mutual': True}, {'userId': 117851014, 'nickname': '智梅子2号', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/lM0_o9zwLIVjMBr3PHOk8Q==/18696095720394288.jpg', 'authStatus': 1, 'userType': 1, 'gender': 1, 'mutual': False}, {'userId': 117847053, 'nickname': '统一改用户名', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/EzSSRYtIiRWfRvrPJvY4Bw==/109951163218720644.jpg', 'authStatus': 0, 'userType': 0, 'gender': 2, 'mutual': False}, {'userId': 118189001, 'nickname': '20160722005555', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/VnZiScyynLG7atLIZ2YPkw==/18686200114669622.jpg', 'authStatus': 0, 'userType': 0, 'gender': 0, 'mutual': False}, {'userId': 117923001, 'nickname': '用户117923001凤飞飞', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/iTrz0H1s-GpP-V23NqeGvg==/1374389535551248.jpg', 'authStatus': 1, 'userType': 4, 'gender': 2, 'mutual': False}]}, 'code': 200}}
+[2018-05-26 23:46:14.426526] INFO: api: 当前模块保存测试结果
+[2018-05-26 23:46:14.427527] INFO: api: 当前模块获取参数信息,(datetime.datetime(2018, 5, 26, 23, 46, 12, 869725), 4, 2, 2)
+[2018-05-26 23:46:14.428527] INFO: api: 当前模块参数信息,{}
+[2018-05-26 23:46:14.429528] INFO: api: 创建EXCEL报告
+[2018-05-26 23:46:14.440536] INFO: api: 创建HTML报告
+[2018-05-26 23:46:57.733832] INFO: api: 当前模块获取excel测试用例
+[2018-05-26 23:46:57.734834] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:46:57.735835] INFO: api: 当前模块参数信息,{}
+[2018-05-26 23:46:57.750845] INFO: api: 当前模块获取excel测试用例
+[2018-05-26 23:46:57.751846] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:46:57.751846] INFO: api: 当前模块参数信息,{}
+[2018-05-26 23:46:57.754848] INFO: api: 当前模块测试
+[2018-05-26 23:46:57.755849] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:46:57.755849] INFO: api: 当前模块参数信息,{}
+[2018-05-26 23:46:57.756850] INFO: api: 当前模块requests封装
+[2018-05-26 23:46:57.756850] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:46:57.757849] INFO: api: 当前模块参数信息,{'url': 'http://api.douban.com/v2/movie/search', 'method': 'GET', 'params': "{'q':'张艺谋','count':'1'}", 'cookie': '{}'}
+[2018-05-26 23:46:57.920169] INFO: api: 输入> 参数:{'q':'张艺谋','count':'1'}, url:http://api.douban.com/v2/movie/search ,返回:200,预期:total=53
+[2018-05-26 23:46:57.920169] INFO: api: 当前模块断言测试结果
+[2018-05-26 23:46:57.921170] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:46:57.921170] INFO: api: 当前模块参数信息,{'expects': 'total=53', 'result_json': {'count': 1, 'start': 0, 'total': 53, 'subjects': [{'rating': {'max': 10, 'average': 5.1, 'stars': '25', 'min': 0}, 'genres': ['动作', '奇幻', '冒险'], 'title': '长城', 'casts': [{'alt': 'https://movie.douban.com/celebrity/1054443/', 'avatars': {'small': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p620.jpg', 'large': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p620.jpg', 'medium': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p620.jpg'}, 'name': '马特·达蒙', 'id': '1054443'}, {'alt': 'https://movie.douban.com/celebrity/1275432/', 'avatars': {'small': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1407683852.1.jpg', 'large': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1407683852.1.jpg', 'medium': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1407683852.1.jpg'}, 'name': '景甜', 'id': '1275432'}, {'alt': 'https://movie.douban.com/celebrity/1329628/', 'avatars': {'small': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1397806328.94.jpg', 'large': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1397806328.94.jpg', 'medium': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1397806328.94.jpg'}, 'name': '佩德罗·帕斯卡', 'id': '1329628'}], 'collect_count': 258486, 'original_title': 'The Great Wall', 'subtype': 'movie', 'directors': [{'alt': 'https://movie.douban.com/celebrity/1054398/', 'avatars': {'small': 'http://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p568.jpg', 'large': 'http://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p568.jpg', 'medium': 'http://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p568.jpg'}, 'name': '张艺谋', 'id': '1054398'}], 'year': '2016', 'images': {'small': 'http://img7.doubanio.com/view/photo/s_ratio_poster/public/p2394573821.jpg', 'large': 'http://img7.doubanio.com/view/photo/s_ratio_poster/public/p2394573821.jpg', 'medium': 'http://img7.doubanio.com/view/photo/s_ratio_poster/public/p2394573821.jpg'}, 'alt': 'https://movie.douban.com/subject/6982558/', 'id': '6982558'}], 'title': '搜索 "张艺谋" 的结果'}}
+[2018-05-26 23:46:57.922169] INFO: api: 当前模块requests封装
+[2018-05-26 23:46:57.922169] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:46:57.923171] INFO: api: 当前模块参数信息,{'url': 'http://www.tuling123.com/openapi/api\n', 'method': 'POST', 'params': "{'password':'1222'}", 'cookie': '{}'}
+[2018-05-26 23:46:57.998367] INFO: api: 输入> 参数:{'password':'1222'}, url:http://www.tuling123.com/openapi/api
+ ,返回:200,预期:code=40002
+[2018-05-26 23:46:57.998367] INFO: api: 当前模块断言测试结果
+[2018-05-26 23:46:57.999368] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:46:57.999368] INFO: api: 当前模块参数信息,{'expects': 'code=40002', 'result_json': {'code': 40007, 'text': '您的请求内容为空。'}}
+[2018-05-26 23:46:58.000356] INFO: api: 当前模块requests封装
+[2018-05-26 23:46:58.000356] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:46:58.001370] INFO: api: 当前模块参数信息,{'url': 'https://api.douban.com/v2/photo/:id', 'method': 'GET', 'params': "{'password':'1222'}", 'cookie': '{}'}
+[2018-05-26 23:46:58.416799] INFO: api: 输入> 参数:{'password':'1222'}, url:https://api.douban.com/v2/photo/:id ,返回:404,预期:code=40002
+[2018-05-26 23:46:58.417801] INFO: api: 当前模块requests封装
+[2018-05-26 23:46:58.417801] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:46:58.418800] INFO: api: 当前模块参数信息,{'url': 'http://igame.163.com/api/nuser/follow/users/simple/get', 'method': 'GET', 'params': '{}', 'cookie': "{'MUSIC_U':'5b7ff2869c4c1d1605c2778f8fb6e6cae1366b2a76a0e27a682e1dfb2939f587ff5b00ac1da1e1b00a503af9397a6e73b364371d53e6ed77'}"}
+[2018-05-26 23:46:58.448837] INFO: api: 输入> 参数:{}, url:http://igame.163.com/api/nuser/follow/users/simple/get ,返回:200,预期:code=200
+[2018-05-26 23:46:58.451840] INFO: api: 当前模块断言测试结果
+[2018-05-26 23:46:58.453813] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:46:58.456820] INFO: api: 当前模块参数信息,{'expects': 'code=200', 'result_json': {'data': {'more': False, 'follow': [{'userId': 118713007, 'nickname': '123_40', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/g8wi_4LwDt4ZjNQfIjKo7A==/109951163269891099.jpg', 'authStatus': 1, 'userType': 4, 'gender': 2, 'mutual': False}, {'userId': 119233081, 'nickname': '帐号已注销', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/VnZiScyynLG7atLIZ2YPkw==/18686200114669622.jpg', 'authStatus': 0, 'userType': 0, 'gender': 0, 'mutual': False}, {'userId': 238522003, 'nickname': '入驻测试1', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/6_y_QdIboD930V3UH1l5kw==/109951163076177982.jpg', 'authStatus': 1, 'userType': 4, 'gender': 0, 'mutual': False}, {'userId': 238525103, 'nickname': '坎坎坷坷扩扩扩', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/6QaaZau_t8bJB2oNhRLZNA==/109951163082004079.jpg', 'authStatus': 1, 'userType': 4, 'gender': 0, 'mutual': True}, {'userId': 118982008, 'nickname': '一毛', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/QCfY3hsTDtcY4lL5rNnMtQ==/109951163279803052.jpg', 'authStatus': 0, 'userType': 0, 'gender': 0, 'mutual': False}, {'userId': 119271007, 'nickname': '听听风风', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/ynszcfbQgJn5wepm_3goOA==/18510278255691124.jpg', 'authStatus': 1, 'userType': 4, 'gender': 0, 'mutual': True}, {'userId': 117851014, 'nickname': '智梅子2号', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/lM0_o9zwLIVjMBr3PHOk8Q==/18696095720394288.jpg', 'authStatus': 1, 'userType': 1, 'gender': 1, 'mutual': False}, {'userId': 117847053, 'nickname': '统一改用户名', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/EzSSRYtIiRWfRvrPJvY4Bw==/109951163218720644.jpg', 'authStatus': 0, 'userType': 0, 'gender': 2, 'mutual': False}, {'userId': 118189001, 'nickname': '20160722005555', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/VnZiScyynLG7atLIZ2YPkw==/18686200114669622.jpg', 'authStatus': 0, 'userType': 0, 'gender': 0, 'mutual': False}, {'userId': 117923001, 'nickname': '用户117923001凤飞飞', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/iTrz0H1s-GpP-V23NqeGvg==/1374389535551248.jpg', 'authStatus': 1, 'userType': 4, 'gender': 2, 'mutual': False}]}, 'code': 200}}
+[2018-05-26 23:46:58.458831] INFO: api: 当前模块保存测试结果
+[2018-05-26 23:46:58.460832] INFO: api: 当前模块获取参数信息,(datetime.datetime(2018, 5, 26, 23, 46, 57, 750845), 4, 2, 2)
+[2018-05-26 23:46:58.462833] INFO: api: 当前模块参数信息,{}
+[2018-05-26 23:46:58.466834] INFO: api: 创建EXCEL报告
+[2018-05-26 23:46:58.492979] INFO: api: 创建HTML报告
+[2018-05-26 23:48:38.610212] INFO: api: 当前模块获取excel测试用例
+[2018-05-26 23:48:38.611213] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:48:38.612214] INFO: api: 当前模块参数信息,{}
+[2018-05-26 23:48:38.629226] INFO: api: 当前模块获取excel测试用例
+[2018-05-26 23:48:38.630227] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:48:38.631227] INFO: api: 当前模块参数信息,{}
+[2018-05-26 23:48:38.634229] INFO: api: 当前模块测试
+[2018-05-26 23:48:38.634229] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:48:38.635230] INFO: api: 当前模块参数信息,{}
+[2018-05-26 23:48:38.636231] INFO: api: 当前模块requests封装
+[2018-05-26 23:48:38.636231] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:48:38.637232] INFO: api: 当前模块参数信息,{'url': 'http://api.douban.com/v2/movie/search', 'method': 'GET', 'params': "{'q':'张艺谋','count':'1'}", 'cookie': '{}'}
+[2018-05-26 23:48:38.790588] INFO: api: 输入> 参数:{'q':'张艺谋','count':'1'}, url:http://api.douban.com/v2/movie/search ,返回:200,预期:total=53
+[2018-05-26 23:48:38.791089] INFO: api: 当前模块断言测试结果
+[2018-05-26 23:48:38.791589] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:48:38.792590] INFO: api: 当前模块参数信息,{'expects': 'total=53', 'result_json': {'count': 1, 'start': 0, 'total': 53, 'subjects': [{'rating': {'max': 10, 'average': 5.1, 'stars': '25', 'min': 0}, 'genres': ['动作', '奇幻', '冒险'], 'title': '长城', 'casts': [{'alt': 'https://movie.douban.com/celebrity/1054443/', 'avatars': {'small': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p620.jpg', 'large': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p620.jpg', 'medium': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p620.jpg'}, 'name': '马特·达蒙', 'id': '1054443'}, {'alt': 'https://movie.douban.com/celebrity/1275432/', 'avatars': {'small': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1407683852.1.jpg', 'large': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1407683852.1.jpg', 'medium': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1407683852.1.jpg'}, 'name': '景甜', 'id': '1275432'}, {'alt': 'https://movie.douban.com/celebrity/1329628/', 'avatars': {'small': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1397806328.94.jpg', 'large': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1397806328.94.jpg', 'medium': 'http://img7.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1397806328.94.jpg'}, 'name': '佩德罗·帕斯卡', 'id': '1329628'}], 'collect_count': 258487, 'original_title': 'The Great Wall', 'subtype': 'movie', 'directors': [{'alt': 'https://movie.douban.com/celebrity/1054398/', 'avatars': {'small': 'http://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p568.jpg', 'large': 'http://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p568.jpg', 'medium': 'http://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p568.jpg'}, 'name': '张艺谋', 'id': '1054398'}], 'year': '2016', 'images': {'small': 'http://img7.doubanio.com/view/photo/s_ratio_poster/public/p2394573821.jpg', 'large': 'http://img7.doubanio.com/view/photo/s_ratio_poster/public/p2394573821.jpg', 'medium': 'http://img7.doubanio.com/view/photo/s_ratio_poster/public/p2394573821.jpg'}, 'alt': 'https://movie.douban.com/subject/6982558/', 'id': '6982558'}], 'title': '搜索 "张艺谋" 的结果'}}
+[2018-05-26 23:48:38.793090] INFO: api: 当前模块requests封装
+[2018-05-26 23:48:38.793590] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:48:38.794091] INFO: api: 当前模块参数信息,{'url': 'http://www.tuling123.com/openapi/api\n', 'method': 'POST', 'params': "{'password':'1222'}", 'cookie': '{}'}
+[2018-05-26 23:48:38.895203] INFO: api: 输入> 参数:{'password':'1222'}, url:http://www.tuling123.com/openapi/api
+ ,返回:200,预期:code=40002
+[2018-05-26 23:48:38.896206] INFO: api: 当前模块断言测试结果
+[2018-05-26 23:48:38.897721] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:48:38.898706] INFO: api: 当前模块参数信息,{'expects': 'code=40002', 'result_json': {'code': 40007, 'text': '您的请求内容为空。'}}
+[2018-05-26 23:48:38.899722] INFO: api: 当前模块requests封装
+[2018-05-26 23:48:38.900707] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:48:38.901709] INFO: api: 当前模块参数信息,{'url': 'https://api.douban.com/v2/photo/:id', 'method': 'GET', 'params': "{'password':'1222'}", 'cookie': '{}'}
+[2018-05-26 23:48:39.329805] INFO: api: 输入> 参数:{'password':'1222'}, url:https://api.douban.com/v2/photo/:id ,返回:404,预期:code=40002
+[2018-05-26 23:48:39.330805] INFO: api: 当前模块requests封装
+[2018-05-26 23:48:39.330805] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:48:39.331806] INFO: api: 当前模块参数信息,{'url': 'http://igame.163.com/api/nuser/follow/users/simple/get', 'method': 'GET', 'params': '{}', 'cookie': "{'MUSIC_U':'5b7ff2869c4c1d1605c2778f8fb6e6cae1366b2a76a0e27a682e1dfb2939f587ff5b00ac1da1e1b00a503af9397a6e73b364371d53e6ed77'}"}
+[2018-05-26 23:48:39.360828] INFO: api: 输入> 参数:{}, url:http://igame.163.com/api/nuser/follow/users/simple/get ,返回:200,预期:code=200
+[2018-05-26 23:48:39.361828] INFO: api: 当前模块断言测试结果
+[2018-05-26 23:48:39.361828] INFO: api: 当前模块获取参数信息,()
+[2018-05-26 23:48:39.362829] INFO: api: 当前模块参数信息,{'expects': 'code=200', 'result_json': {'data': {'more': False, 'follow': [{'userId': 118713007, 'nickname': '123_40', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/g8wi_4LwDt4ZjNQfIjKo7A==/109951163269891099.jpg', 'authStatus': 1, 'userType': 4, 'gender': 2, 'mutual': False}, {'userId': 119233081, 'nickname': '帐号已注销', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/VnZiScyynLG7atLIZ2YPkw==/18686200114669622.jpg', 'authStatus': 0, 'userType': 0, 'gender': 0, 'mutual': False}, {'userId': 238522003, 'nickname': '入驻测试1', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/6_y_QdIboD930V3UH1l5kw==/109951163076177982.jpg', 'authStatus': 1, 'userType': 4, 'gender': 0, 'mutual': False}, {'userId': 238525103, 'nickname': '坎坎坷坷扩扩扩', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/6QaaZau_t8bJB2oNhRLZNA==/109951163082004079.jpg', 'authStatus': 1, 'userType': 4, 'gender': 0, 'mutual': True}, {'userId': 118982008, 'nickname': '一毛', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/QCfY3hsTDtcY4lL5rNnMtQ==/109951163279803052.jpg', 'authStatus': 0, 'userType': 0, 'gender': 0, 'mutual': False}, {'userId': 119271007, 'nickname': '听听风风', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/ynszcfbQgJn5wepm_3goOA==/18510278255691124.jpg', 'authStatus': 1, 'userType': 4, 'gender': 0, 'mutual': True}, {'userId': 117851014, 'nickname': '智梅子2号', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/lM0_o9zwLIVjMBr3PHOk8Q==/18696095720394288.jpg', 'authStatus': 1, 'userType': 1, 'gender': 1, 'mutual': False}, {'userId': 117847053, 'nickname': '统一改用户名', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/EzSSRYtIiRWfRvrPJvY4Bw==/109951163218720644.jpg', 'authStatus': 0, 'userType': 0, 'gender': 2, 'mutual': False}, {'userId': 118189001, 'nickname': '20160722005555', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/VnZiScyynLG7atLIZ2YPkw==/18686200114669622.jpg', 'authStatus': 0, 'userType': 0, 'gender': 0, 'mutual': False}, {'userId': 117923001, 'nickname': '用户117923001凤飞飞', 'remarkName': None, 'avatarUrl': 'http://p1.music.126.net/iTrz0H1s-GpP-V23NqeGvg==/1374389535551248.jpg', 'authStatus': 1, 'userType': 4, 'gender': 2, 'mutual': False}]}, 'code': 200}}
+[2018-05-26 23:48:39.363830] INFO: api: 当前模块保存测试结果
+[2018-05-26 23:48:39.363830] INFO: api: 当前模块获取参数信息,(datetime.datetime(2018, 5, 26, 23, 48, 38, 629226), 4, 2, 2)
+[2018-05-26 23:48:39.364831] INFO: api: 当前模块参数信息,{}
+[2018-05-26 23:48:39.365832] INFO: api: 创建EXCEL报告
+[2018-05-26 23:48:39.373837] INFO: api: 创建HTML报告
