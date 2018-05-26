@@ -4,6 +4,8 @@
 """
 import xlwt,yaml
 from xlwt import *
+from Public.log import LOG,logger
+
 def style1(): #微软雅黑，文字居中，400高度,加粗
     sty1=XFStyle()
     fnt=Font()
@@ -42,7 +44,19 @@ def style4(m):#测试结果的样式设置
         Pattern.pattern_fore_colour=xlwt.Style.colour_map['red']
         sty4.pattern=Pattern
     return sty4
+def style5():#文字不居中，300高度,红色
+    sty5 = XFStyle()
+    sty5.font.height = 300
+    sty5.font.colour_index=2
+    return sty5
+def style6():#文字不居中，300高度,绿色
+    sty6 = XFStyle()
+    sty6.font.height = 300
+    sty6.font.colour_index=3
+    return sty6
+
 def create(filename,list_pass,list_fail,listids,listnames,listkeys,listcontent,listurls,listmethods,listexpects,list_json,listresult):
+    LOG.info('创建EXCEL报告')
     filepath=open(r'.\config\config.yaml',encoding='utf-8')
     file_config=yaml.load(filepath)
     file=Workbook(filename)
@@ -76,15 +90,18 @@ def create(filename,list_pass,list_fail,listids,listnames,listkeys,listcontent,l
     table.write(6,7, '实际结果', style=style3())
     table.write(6, 8, '最终结果', style=style3())
     for i in range(len(listids)):
-        table.write(i+6,0,listids[i],style=style3())
-        table.write(i+6,1,listnames[i],style=style3())
-        table.write(i+6,2,listkeys[i],style=style3())
-        table.write(i+6,3,listcontent[i],style=style3())
-        table.write(i+6,4,listurls[i],style=style3())
-        table.write(i+6,5,listmethods[i],style=style3())
-        table.write(i+6,6,listexpects[i],style=style3())
-        table.write(i+6,7,str(list_json[i]),style=style3())
-        table.write(i+6,8,listresult[i],style=style3())
+        table.write(i+7,0,listids[i],style=style3())
+        table.write(i+7,1,listnames[i],style=style3())
+        table.write(i+7,2,listkeys[i],style=style3())
+        table.write(i+7,3,listcontent[i],style=style3())
+        table.write(i+7,4,listurls[i],style=style3())
+        table.write(i+7,5,listmethods[i],style=style3())
+        table.write(i+7,6,listexpects[i],style=style3())
+        table.write(i+7,7,str(list_json[i]),style=style3())
+        if listresult[i]=='fail':
+            table.write(i+7,8,listresult[i],style=style5())
+        else:
+            table.write(i+7,8,listresult[i],style=style6())
     file.save(filename)
 
 

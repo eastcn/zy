@@ -23,3 +23,53 @@
 [2018-05-13 22:15:28.380532] INFO: api: 当前模块保存测试结果
 [2018-05-13 22:15:28.380532] INFO: api: 全部args参数信息,(datetime.datetime(2018, 5, 13, 22, 15, 28, 369514), 3, 0, 3)
 [2018-05-13 22:15:28.381533] INFO: api: 全部kwargs参数信息,{}
+[2018-05-13 23:00:53.684343] INFO: api: 当前模块获取excel测试用例
+[2018-05-13 23:00:53.685344] INFO: api: 全部args参数信息,()
+[2018-05-13 23:00:53.685844] INFO: api: 全部kwargs参数信息,{}
+[2018-05-13 23:00:53.715431] INFO: api: 当前模块获取excel测试用例
+[2018-05-13 23:00:53.715931] INFO: api: 全部args参数信息,()
+[2018-05-13 23:00:53.716432] INFO: api: 全部kwargs参数信息,{}
+[2018-05-13 23:00:53.718934] INFO: api: 当前模块测试
+[2018-05-13 23:00:53.719434] INFO: api: 全部args参数信息,()
+[2018-05-13 23:00:53.719935] INFO: api: 全部kwargs参数信息,{}
+[2018-05-13 23:00:53.720435] INFO: api: 当前模块requests封装
+[2018-05-13 23:00:53.720935] INFO: api: 全部args参数信息,()
+[2018-05-13 23:00:53.721436] INFO: api: 全部kwargs参数信息,{'url': 'http://www.tuling123.com/openapi/api', 'method': 'code=40001', 'params': 'aaaa'}
+[2018-05-13 23:00:53.721936] INFO: api: 输入> 参数:aaaa, url:http://www.tuling123.com/openapi/api ,返回:0,预期:POST
+[2018-05-13 23:00:53.721936] INFO: api: 当前模块requests封装
+[2018-05-13 23:00:53.722436] INFO: api: 全部args参数信息,()
+[2018-05-13 23:00:53.722937] INFO: api: 全部kwargs参数信息,{'url': 'http://www.tuling123.com/openapi/api\n', 'method': 'code=40002', 'params': 'dfeb1cc8125943d29764a2f2f5c33739'}
+[2018-05-13 23:00:53.723437] INFO: api: 输入> 参数:dfeb1cc8125943d29764a2f2f5c33739, url:http://www.tuling123.com/openapi/api
+ ,返回:0,预期:POST
+[2018-05-13 23:00:53.723937] INFO: api: 当前模块requests封装
+[2018-05-13 23:00:53.724438] INFO: api: 全部args参数信息,()
+[2018-05-13 23:00:53.724938] INFO: api: 全部kwargs参数信息,{'url': 'https://api.douban.com/v2/photo/:id', 'method': '', 'params': 'dfeb1cc8125943d29764a2f2f5c33739'}
+[2018-05-13 23:00:53.725438] INFO: api: 输入> 参数:dfeb1cc8125943d29764a2f2f5c33739, url:https://api.douban.com/v2/photo/:id ,返回:0,预期:GET
+[2018-05-13 23:00:53.725938] INFO: api: 当前模块保存测试结果
+[2018-05-13 23:00:53.726439] INFO: api: 全部args参数信息,(datetime.datetime(2018, 5, 13, 23, 0, 53, 715431), 3, 0, 3)
+[2018-05-13 23:00:53.726940] INFO: api: 全部kwargs参数信息,{}
+[2018-05-13 23:01:18.606296] INFO: api: 当前模块获取excel测试用例
+[2018-05-13 23:01:18.606796] INFO: api: 全部args参数信息,()
+[2018-05-13 23:01:18.607297] INFO: api: 全部kwargs参数信息,{}
+[2018-05-13 23:01:18.624810] INFO: api: 当前模块获取excel测试用例
+[2018-05-13 23:01:18.625811] INFO: api: 全部args参数信息,()
+[2018-05-13 23:01:18.625811] INFO: api: 全部kwargs参数信息,{}
+[2018-05-13 23:01:18.628812] INFO: api: 当前模块测试
+[2018-05-13 23:01:18.629313] INFO: api: 全部args参数信息,()
+[2018-05-13 23:01:18.629813] INFO: api: 全部kwargs参数信息,{}
+[2018-05-13 23:01:18.630814] INFO: api: 当前模块requests封装
+[2018-05-13 23:01:18.631314] INFO: api: 全部args参数信息,()
+[2018-05-13 23:01:18.631815] INFO: api: 全部kwargs参数信息,{'url': 'http://www.tuling123.com/openapi/api', 'method': 'code=40001', 'params': 'aaaa'}
+[2018-05-13 23:01:18.632315] INFO: api: 输入> 参数:aaaa, url:http://www.tuling123.com/openapi/api ,返回:0,预期:POST
+[2018-05-13 23:01:18.632815] INFO: api: 当前模块requests封装
+[2018-05-13 23:01:18.633316] INFO: api: 全部args参数信息,()
+[2018-05-13 23:01:18.633816] INFO: api: 全部kwargs参数信息,{'url': 'http://www.tuling123.com/openapi/api\n', 'method': 'code=40002', 'params': 'dfeb1cc8125943d29764a2f2f5c33739'}
+[2018-05-13 23:01:18.634316] INFO: api: 输入> 参数:dfeb1cc8125943d29764a2f2f5c33739, url:http://www.tuling123.com/openapi/api
+ ,返回:0,预期:POST
+[2018-05-13 23:01:18.634817] INFO: api: 当前模块requests封装
+[2018-05-13 23:01:18.634817] INFO: api: 全部args参数信息,()
+[2018-05-13 23:01:18.635317] INFO: api: 全部kwargs参数信息,{'url': 'https://api.douban.com/v2/photo/:id', 'method': '', 'params': 'dfeb1cc8125943d29764a2f2f5c33739'}
+[2018-05-13 23:01:18.635818] INFO: api: 输入> 参数:dfeb1cc8125943d29764a2f2f5c33739, url:https://api.douban.com/v2/photo/:id ,返回:0,预期:GET
+[2018-05-13 23:01:18.636318] INFO: api: 当前模块保存测试结果
+[2018-05-13 23:01:18.636818] INFO: api: 全部args参数信息,(datetime.datetime(2018, 5, 13, 23, 1, 18, 624810), 3, 0, 3)
+[2018-05-13 23:01:18.637318] INFO: api: 全部kwargs参数信息,{}

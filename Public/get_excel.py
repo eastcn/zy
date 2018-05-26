@@ -27,7 +27,7 @@ def data_excel():
             listurl.append(sheet.cell(i,4).value)
             listmethod.append(sheet.cell(i,5).value)
             listexpect.append(sheet.cell(i,6).value)
-        return listid,listname,listcontent,listkey,listurl,listexpect,listmethod
+        return listid,listname,listkey,listcontent,listurl,listmethod,listexpect
     except:LOG.info('打开测试用例失败，原因是%s'%Exception)
 
 

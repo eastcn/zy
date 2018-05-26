@@ -5,7 +5,7 @@
 from Public.get_excel import data_excel
 from Public.log import LOG,logger
 # from Public.test_Fz import TestApi
-from Public.test_requests import requests as req
+from Public.test_requests import request as req
 import json
 from Public.asserter import assert_in
 listid,listname,listkey,listcontent,listurl,listmethod,listexpect=data_excel()
@@ -19,7 +19,7 @@ def test():
     list_place=0
     list_exption=0
     for i in range(len(listurl)):
-        status,result_json=req(url=listurl[i],method=listmethod[i],params=listcontent[i])
+        status,result_json=req(url=listurl[i],method=listmethod[i],params=listcontent[i],cookie=listkey[i])
         # status=res.status_code
         # result_json=json.load(res.text)
         LOG.info('输入> 参数:%s, url:%s ,返回:%s,预期:%s' % (listcontent[i], listurl[i],status , listexpect[i]))

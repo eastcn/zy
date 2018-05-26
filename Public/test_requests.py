@@ -2,21 +2,24 @@
 @east
 @封装request
 """
-import requests,json
+import requests,json,ast
 from Public.log import LOG,logger
 
 @logger('requests封装')
-def requests(url, method, params):
+def request(url, method, params,cookie):
     header = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:51.0) Gecko/20100101 Firefox/51.0"}
+    params_dict=ast.literal_eval(params)
+    cookie_dict=ast.literal_eval(cookie)
     if method == 'POST':
-        response = requests.post(url=url,data=params,headers=header)
+        response = requests.post(url=url,data=params_dict,headers=header,cookies=cookie_dict)
         status=response.status_code
-        json_result=json.load(response.text)
+        json_result=json.loads(response.text)
         return status,json_result
     elif method == 'GET':
-        response = requests.get(url, params)
+        #LOG.info('%s'%isinstance(params,str))
+        response = requests.get(url, params_dict,cookies=cookie_dict)
         status = response.status_code
-        json_result = json.load(response.text)
+        json_result = json.loads(response.text)
         return status,json_result
     else:
         status=0
