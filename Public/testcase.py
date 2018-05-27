@@ -8,10 +8,11 @@ from Public.log import LOG,logger
 from Public.test_requests import request as req
 import json
 from Public.asserter import assert_in
-listid,listname,listkey,listcontent,listurl,listmethod,listexpect=data_excel()
+#listid,listname,listkey,listcontent,listurl,listmethod,listexpect=data_excel()
+
 
 @logger('测试')
-def test():
+def test(listid,listname,listkey,listcontent,listurl,listmethod,listexpect):
     list_pass = 0
     list_fail = 0
     list_json = []

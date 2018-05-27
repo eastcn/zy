@@ -27,7 +27,7 @@ def logger(param):
     def wrap(function):
         @wraps(function)
         def _wrap(*args,**kwargs):
-            LOG.info("当前模块{}".format(param))
+            LOG.info("当前模块为{}".format(param))
             LOG.info("当前模块获取参数信息,{}".format(str(args)))
             LOG.info("当前模块参数信息,{}".format(str(kwargs)))
             return function(*args,**kwargs)

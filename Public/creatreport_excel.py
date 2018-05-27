@@ -5,6 +5,7 @@
 import xlwt,yaml
 from xlwt import *
 from Public.log import LOG,logger
+from Public.MD5 import set_md5
 
 def style1(): #微软雅黑，文字居中，400高度,加粗
     sty1=XFStyle()
@@ -55,12 +56,23 @@ def style6():#文字不居中，300高度,绿色
     sty6.font.colour_index=3
     return sty6
 
+
+
 def create(filename,list_pass,list_fail,listids,listnames,listkeys,listcontent,listurls,listmethods,listexpects,list_json,listresult):
     LOG.info('创建EXCEL报告')
     filepath=open(r'.\config\config.yaml',encoding='utf-8')
     file_config=yaml.load(filepath)
     file=Workbook(filename)
     table=file.add_sheet('测试报告',cell_overwrite_ok=True)
+    #sheet2
+    table2=file.add_sheet('测试一下sheet2')
+    table2.write_merge(0,0,0,8,'测试报告')
+
+    #参数md5转换
+    md5_params=[]
+    for m in range(0,len(listcontent)):
+        md5_params.append(set_md5(listcontent[m]))
+
     style_1=style1()
     for i in  range(0,8):
         table.col(i).width=380*20
@@ -93,7 +105,7 @@ def create(filename,list_pass,list_fail,listids,listnames,listkeys,listcontent,l
         table.write(i+7,0,listids[i],style=style3())
         table.write(i+7,1,listnames[i],style=style3())
         table.write(i+7,2,listkeys[i],style=style3())
-        table.write(i+7,3,listcontent[i],style=style3())
+        table.write(i+7,3,md5_params[i],style=style3())
         table.write(i+7,4,listurls[i],style=style3())
         table.write(i+7,5,listmethods[i],style=style3())
         table.write(i+7,6,listexpects[i],style=style3())

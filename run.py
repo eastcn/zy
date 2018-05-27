@@ -9,8 +9,8 @@ from Public.get_excel import data_excel
 from Public.testcase import test
 from Public.savereport import save_result
 from Public.create_html import createHtml
-
-
+from Public.email import send_email
+from Public.log import LOG
 
 def start():
     # 读取时间
@@ -24,7 +24,9 @@ def start():
 
     # 读取测试数据
     listid, listname, listkey, listcontent, listurl, listmethod, listexpect = data_excel()
-    list_relust, list_fail, list_pass, list_json, list_exption, list_place = test()
+
+    #进行测试
+    list_relust, list_fail, list_pass, list_json, list_exption, list_place = test(listid, listname, listkey, listcontent, listurl, listmethod, listexpect)
 
     # 创建测试报告地址
     filepath_excel = os.path.join(basdir + '\\test_Report\\%s-result.xls' % m)
@@ -49,7 +51,8 @@ def start():
                id=listid, name=listname, key=listkey, coneent=listcontent, url=listurl, meth=listmethod,
                yuqi=listexpect, json=list_json, relusts=list_relust, weizhi=list_place, exceptions=list_exption)
     # 发送邮件
-    #send_email(fp=filepath)
+    #send_email(fp=filepath_excel)
+    LOG.info('测试完成')
 
 if __name__ == '__main__':
     start()
